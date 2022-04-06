@@ -21,7 +21,7 @@ var friends: Set = ["rishik","reddy","rohit"]
 print(friends)
 
 for items in friends{
-    print("\(friends)")
+    print("\(friends.count)")
 }
 
 

@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1323F5F327FD606700260C41 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323F5F227FD606700260C41 /* main.swift */; };
 		139D5CDA27F17ACB00E9F4A9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139D5CD927F17ACB00E9F4A9 /* main.swift */; };
 		139D5CEC27F1E18F00E9F4A9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139D5CE627F1E0C400E9F4A9 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		1323F5EE27FD606700260C41 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		139D5CD427F17ACB00E9F4A9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1323F5F027FD606700260C41 /* class */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = class; sourceTree = BUILT_PRODUCTS_DIR; };
+		1323F5F227FD606700260C41 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		139D5CD627F17ACB00E9F4A9 /* swiftl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swiftl; sourceTree = BUILT_PRODUCTS_DIR; };
 		139D5CD927F17ACB00E9F4A9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		139D5CE427F1E0C400E9F4A9 /* array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = array; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +52,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1323F5ED27FD606700260C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		139D5CD327F17ACB00E9F4A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -57,11 +76,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1323F5F127FD606700260C41 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				1323F5F227FD606700260C41 /* main.swift */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
 		139D5CCD27F17ACB00E9F4A9 = {
 			isa = PBXGroup;
 			children = (
 				139D5CD827F17ACB00E9F4A9 /* swiftl */,
 				139D5CE527F1E0C400E9F4A9 /* array */,
+				1323F5F127FD606700260C41 /* class */,
 				139D5CD727F17ACB00E9F4A9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +99,7 @@
 			children = (
 				139D5CD627F17ACB00E9F4A9 /* swiftl */,
 				139D5CE427F1E0C400E9F4A9 /* array */,
+				1323F5F027FD606700260C41 /* class */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +123,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1323F5EF27FD606700260C41 /* class */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1323F5F627FD606700260C41 /* Build configuration list for PBXNativeTarget "class" */;
+			buildPhases = (
+				1323F5EC27FD606700260C41 /* Sources */,
+				1323F5ED27FD606700260C41 /* Frameworks */,
+				1323F5EE27FD606700260C41 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = class;
+			productName = class;
+			productReference = 1323F5F027FD606700260C41 /* class */;
+			productType = "com.apple.product-type.tool";
+		};
 		139D5CD527F17ACB00E9F4A9 /* swiftl */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 139D5CDD27F17ACB00E9F4A9 /* Build configuration list for PBXNativeTarget "swiftl" */;
@@ -138,6 +184,9 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					1323F5EF27FD606700260C41 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					139D5CD527F17ACB00E9F4A9 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -161,11 +210,20 @@
 			targets = (
 				139D5CD527F17ACB00E9F4A9 /* swiftl */,
 				139D5CE327F1E0C400E9F4A9 /* array */,
+				1323F5EF27FD606700260C41 /* class */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1323F5EC27FD606700260C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1323F5F327FD606700260C41 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		139D5CD227F17ACB00E9F4A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -185,6 +243,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		1323F5F427FD606700260C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFKKGHNY9D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1323F5F527FD606700260C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFKKGHNY9D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		139D5CDB27F17ACB00E9F4A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -347,6 +427,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1323F5F627FD606700260C41 /* Build configuration list for PBXNativeTarget "class" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1323F5F427FD606700260C41 /* Debug */,
+				1323F5F527FD606700260C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		139D5CD127F17ACB00E9F4A9 /* Build configuration list for PBXProject "swiftl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
